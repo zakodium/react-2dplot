@@ -15,10 +15,12 @@
   }
 
   /* Vertical centering fix for IE11 */
-  .sb-show-main.sb-main-centered:after {
-    content: '';
-    min-height: inherit;
-    font-size: 0;
+  @media screen and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .sb-show-main.sb-main-centered:after {
+      content: '';
+      min-height: inherit;
+      font-size: 0;
+    }
   }
 
   .sb-show-main.sb-main-fullscreen {
@@ -104,4 +106,4 @@
             
         
             
-              window['FRAMEWORK_OPTIONS'] = {};</script><script src="runtime~main.058ee0bb6d0493004978.bundle.js"></script><script src="vendors~main.058ee0bb6d0493004978.bundle.js"></script><script src="main.058ee0bb6d0493004978.bundle.js"></script></body></html>
+              window['FRAMEWORK_OPTIONS'] = {};</script><script src="runtime~main.a59c03901689ed6c202d.bundle.js"></script><script src="vendors~main.a59c03901689ed6c202d.bundle.js"></script><script src="main.a59c03901689ed6c202d.bundle.js"></script></body></html>
